@@ -1,6 +1,8 @@
 # plant_your_tree
 
 This project lets you check Air Quality index in your city.:
+<br>
+
 ![WhatsApp Image 2022-11-07 at 19 51 14](https://user-images.githubusercontent.com/85965351/200338718-6d92d6e5-a862-461f-806a-01f89fbc6eb1.jpeg)
 <br>
 After you connected your wallet: it lets you mine a dynamic NFT:
