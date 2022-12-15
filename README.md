@@ -1,5 +1,7 @@
 # plant_your_tree
 
+Plant Your Tree is a dynamic NFT dapp. The inspiration behind is the degrading environment. It lets you mint an NFT and a plant will be planted on your behalf by us. You get to own the plant and te NFT is te proof. The NFT is dynamic which means it will change as the plant grows.
+
 This project lets you check Air Quality index in your city.:
 <br>
 
