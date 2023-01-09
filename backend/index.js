@@ -6,25 +6,25 @@ const revise = new Revise({auth: AUTH_TOKEN});
 async function run() {
 
 
-  // const collection = await revise.addCollection({
-  //   name: "Your planted NFT",
-  //   uri: "plantednft",
-  // });
-  // console.log(collection);
+  const collection = await revise.addCollection({
+    name: "Your planted NFT",
+    uri: "plantednft",
+  });
+  console.log(collection);
 
-  // const nft = await revise.addNFT(
-  //   {
-  //     image:
-  //       "https://drive.google.com/file/d/1ImXCCYYoc5aZvp7z_YRSZ-xh3Uat-Mke/view?usp=sharing",
-  //     name: "Your Plant",
-  //     tokenId: "1",
-  //     description: "This is how your plant is growing",
-  //   },
-  //   [{ state: "sapling" }],
-  //   collection.id
-  // );
+  const nft = await revise.addNFT(
+    {
+      image:
+        "https://drive.google.com/file/d/1ImXCCYYoc5aZvp7z_YRSZ-xh3Uat-Mke/view?usp=sharing",
+      name: "Your Plant",
+      tokenId: "1",
+      description: "This is how your plant is growing",
+    },
+    [{ state: "sapling" }],
+    collection.id
+  );
 
-  // console.log(nft);
+  console.log(nft);
 
   const API = async function() {
     const options = [
